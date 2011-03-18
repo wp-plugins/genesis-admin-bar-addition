@@ -1,5 +1,5 @@
 === Genesis Admin Bar Addition ===
-Contributors: defries
+Contributors: DeFries
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4UVLDL3LEG2QG
 Tags: genesis, admin-bar,
 Requires at least: 3.1
