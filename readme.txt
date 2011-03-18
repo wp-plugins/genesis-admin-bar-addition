@@ -16,7 +16,7 @@ Making use of the new WordPress 3.1 admin bar this plugin adds an extra menu to 
 
 Installation of this plugin works like any other plugin out there. Either:
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload the zip file to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 Or search for the plugin via your plugins menu.
@@ -45,7 +45,7 @@ Upgrade from nothingness just to be one of the cool kids.
 
 == Other Notes ==
 
-Unordered list:
+You can find me here:
 
 * [ForSite Media](http://www.forsite.nu/ "ForSite Media")
 * [Find me on twitter](http://twitter.com/DeFries "Remkus de Vries on Twitter")
