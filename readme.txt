@@ -4,13 +4,14 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: genesis, admin-bar,
 Requires at least: 3.1
 Tested up to: 3.1
-Stable tag: 0.1
+Stable tag: 0.2
 
 Admin Bar Addition with Genesis Resources links
 
 == Description ==
 
-Making use of the new WordPress 3.1 admin bar this plugin adds an extra menu to your Admin Bar. The links are resources related to the Genesis Framework.
+Making use of the new WordPress 3.1 admin bar this plugin adds an extra menu to your Admin Bar. The links are resources related to the Genesis Framework. The menus are translatable and the output of the menu is now filterable.
+Via this filter any plugin or child theme for the Genesis Framework can add it's own menu to the Genesis Admin Bar menu.
 
 == Installation ==
 
@@ -37,11 +38,21 @@ No screenshots (yet)
 
 * First release.
 
+= 0.2 =
+
+* Completely refactored this plugin thanks to the input of [Gary Jones](http://garyjones.co.uk "Gary Jones"). 
+The plugin now allows now for child themes and plugins to add their own menu items to the one already provided for in this plugin. 
+The internal Genesis pages are added to the menu now as well.
+
 == Upgrade Notice ==
 
 = 0.1 =
 
 Upgrade from nothingness just to be one of the cool kids.
+
+= 0.2 =
+
+Additional Genesis links added, plus code enhancements.
 
 == Other Notes ==
 

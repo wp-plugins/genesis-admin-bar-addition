@@ -1,8 +1,8 @@
 <?php 
 /*
-Plugin Name: Genesis Admin Bar
+Plugin Name: Genesis Admin Bar Addition
 Version: 0.2
-Plugin URI: http://remkusdevries.com/plugins/genesis-admin-bar/
+Plugin URI: http://remkusdevries.com/plugins/genesis-admin-bar-addition/
 Description: The plugin adds resources links related the Genesis Framework to the admin bar .
 Author: Remkus de Vries
 Author URI: http://remkusdevries.com/
@@ -12,6 +12,7 @@ Author URI: http://remkusdevries.com/
  * The translation gettext domain for the plugin.
  * 
  * @since 0.2
+ * @author Gary Jones
  */
 define( 'FST_GAB_DOMAIN', 'fst_genesis_admin_bar' );
 
@@ -19,6 +20,7 @@ define( 'FST_GAB_DOMAIN', 'fst_genesis_admin_bar' );
  * Ensure plugin is translatable.
  * 
  * @since 0.2
+ * @author Gary Jones
  */
 load_plugin_textdomain( FST_GAB_DOMAIN, false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
@@ -144,7 +146,7 @@ function fst_genesis_admin_bar_menu() {
 				'meta'   => array( 'target' => '' )
 			);
 		}
-		if ( function_exists( 'Genesis_Simple_Edits' ) ) {
+		if ( class_exists( 'Genesis_Simple_Edits' ) ) {
 			$menu_items['simple-edit'] = array(
 				'parent' => $settings,
 				'title'  => __( 'Simple Edits', FST_GAB_DOMAIN ),
@@ -159,7 +161,6 @@ function fst_genesis_admin_bar_menu() {
 				'href'   => admin_url( 'admin.php?page=simple-sidebars' ),
 				'meta'   => array( 'target' => '' )
 			);
-		
 		}
 	}
 
