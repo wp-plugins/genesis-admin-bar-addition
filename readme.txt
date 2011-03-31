@@ -34,15 +34,17 @@ No screenshots (yet)
 
 == Changelog ==
 
-= 0.1 =
-
-* First release.
 
 = 0.2 =
 
 * Completely refactored this plugin thanks to the input of [Gary Jones](http://garyjones.co.uk "Gary Jones"). 
 The plugin now allows now for child themes and plugins to add their own menu items to the one already provided for in this plugin. 
 The internal Genesis pages are added to the menu now as well.
+
+= 0.1 =
+
+* First release.
+
 
 == Upgrade Notice ==
 
