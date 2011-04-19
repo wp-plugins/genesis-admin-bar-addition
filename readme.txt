@@ -3,7 +3,7 @@ Contributors: DeFries
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4UVLDL3LEG2QG
 Tags: genesis, admin-bar,
 Requires at least: 3.1
-Tested up to: 3.1
+Tested up to: 3.1.2
 Stable tag: 0.2
 
 Admin Bar Addition with Genesis Resources links
@@ -30,7 +30,7 @@ You most certainly can. Contact me via [Twitter](http://twitter.com/DeFries "My 
 
 == Screenshots ==
 
-No screenshots (yet)
+No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
 
@@ -44,6 +44,7 @@ The internal Genesis pages are added to the menu now as well.
 = 0.1 =
 
 * First release.
+
 
 
 == Upgrade Notice ==
