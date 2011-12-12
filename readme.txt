@@ -30,7 +30,7 @@ You most certainly can. Contact me via [Twitter](http://twitter.com/DeFries "My 
 
 == Screenshots ==
 
-No screenshots (yet). Let me know if you need some.
+1. A sample of what the plugin looks like
 
 == Changelog ==
 
