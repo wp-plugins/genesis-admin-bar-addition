@@ -1,6 +1,6 @@
 <?php 
 /*
-Plugin Name: Genesis Toolbar
+Plugin Name: Genesis Toolbar +
 Version: 1.0
 Plugin URI: http://remkusdevries.com/plugins/genesis-admin-bar/
 Description: The plugin adds resources links related the Genesis Framework to the admin bar .

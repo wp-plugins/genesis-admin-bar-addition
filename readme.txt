@@ -1,12 +1,12 @@
-=== Genesis Toolbar ===
+=== Genesis Toolbar + ===
 Contributors: DeFries
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4UVLDL3LEG2QG
-Tags: genesis, admin-bar,
+Tags: genesis, admin-bar, studiopress, genesiswp
 Requires at least: 3.1
 Tested up to: 3.3
 Stable tag: 1.0
 
-WordPress Toolbar addittion full of information for the Genesis Framework.
+WordPress Toolbar addition full of information for the Genesis Framework.
 
 == Description ==
 
