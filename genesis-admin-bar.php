@@ -1,7 +1,7 @@
 <?php 
 /*
-Plugin Name: Genesis Admin Bar
-Version: 0.2
+Plugin Name: Genesis Toolbar
+Version: 1.0
 Plugin URI: http://remkusdevries.com/plugins/genesis-admin-bar/
 Description: The plugin adds resources links related the Genesis Framework to the admin bar .
 Author: Remkus de Vries
@@ -51,17 +51,22 @@ function fst_genesis_admin_bar_menu() {
 		'dev' => array(
 			'parent' => $genesis,
 			'title'  => __( 'Genesis Codex', FST_GAB_DOMAIN ),
-			'href'   => 'http://dev.studiopress.com/'
+			'href'   => 'http://www.studiopress.com/tutorials/'
 		),
 		'studiopress' => array(
 			'parent' => $genesis,
 			'title'  => __( 'StudioPress', FST_GAB_DOMAIN ),
 			'href'   => 'http://www.studiopress.com/'
 		),
+		'devsp' => array(
+			'parent' => $dev,
+			'title'  => __( 'StudioPress Developers', FST_GAB_DOMAIN ),
+			'href'   => 'http://dev.studiopress.com/'
+		),
 		'sitemap' => array(
 			'parent' => $dev,
-			'title'  => __( 'Dev.StudioPress Sitemap', FST_GAB_DOMAIN ),
-			'href'   => 'http://dev.studiopress.com/sitemap'
+			'title'  => __( 'StudioPress Resources', FST_GAB_DOMAIN ),
+			'href'   => 'http://www.studiopress.com/resources/'
 		),
 		'hooks' => array(
 			'parent' => $dev,
@@ -93,10 +98,20 @@ function fst_genesis_admin_bar_menu() {
 			'title'  => __( 'StudioPress Themes', FST_GAB_DOMAIN ),
 			'href'   => 'http://www.studiopress.com/themes'
 		),
+		'market' => array(
+			'parent' => $studiopress,
+			'title'  => __( 'Marketplace', FST_GAB_DOMAIN ),
+			'href'   => 'http://market.studiopress.com/themes',
+		),
 		'plugins' => array(
 			'parent' => $studiopress,
 			'title'  => __( 'StudioPress Plugins', FST_GAB_DOMAIN ),
 			'href'   => 'http://www.studiopress.com/plugins'
+		),
+		'plugins-external' => array(
+			'parent' => $studiopress,
+			'title'  => __( 'Genesis Plugins', FST_GAB_DOMAIN ),
+			'href'   => 'http://wordpress.org/extend/plugins/tags/genesis'
 		)
 	);
 	
@@ -104,7 +119,7 @@ function fst_genesis_admin_bar_menu() {
 		global	$_genesis_theme_settings_pagehook;
 		$menu_items['settings'] = array(
 			'parent' => $genesis,
-			'title'  => __( 'Settings', FST_GAB_DOMAIN ),
+			'title'  => __( 'Genesis Settings', FST_GAB_DOMAIN ),
 			'href'   => admin_url( 'admin.php?page=genesis' ),
 			'meta'   => array( 'target' => '' )
 		);
@@ -194,8 +209,14 @@ function fst_genesis_admin_bar_menu() {
 		$wp_admin_bar->add_menu( $menu_item );
 	}		
 }
+
 add_action( 'wp_head', 'fst_genesis_admin_style' );
-add_action( 'admin_head', 'fst_genesis_admin_style' );
+/**
+ * Adding a bit of styling.
+ * 
+ * @access public
+ * @return void
+ */
 function fst_genesis_admin_style() {
 	if ( ! is_admin_bar_showing() )
 		return;
@@ -204,11 +225,8 @@ function fst_genesis_admin_style() {
 		<?php
 		if ( defined( 'GENESIS_SETTINGS_FIELD' ) ) {
 		?>
-		#wpadminbar .icon-genesis>a {
-			background: url(<?php echo PARENT_URL; ?>/images/genesis.gif) no-repeat 0.85em 50%;
-		}
-		#wpadminbar .icon-genesis>a span {
-			padding-left: 20px;
+		#wpadminbar li:hover ul ul {
+		left: 0;
 		}
 		<?php } ?>
 	</style>
