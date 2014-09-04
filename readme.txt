@@ -3,7 +3,7 @@ Contributors: DeFries
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4UVLDL3LEG2QG
 Tags: genesis, admin-bar, studiopress, genesiswp
 Requires at least: 3.1
-Tested up to: 3.3
+Tested up to: 4.0
 Stable tag: 1.0
 
 WordPress Toolbar addition full of information for the Genesis Framework.
@@ -34,14 +34,14 @@ You most certainly can. Contact me via [Twitter](http://twitter.com/DeFries "My 
 
 == Changelog ==
 
-= 1.0 = 
+= 1.0 =
 
 * Added a couple of resources because of the changes on the StudioPress.com site. Also adjusted some styling stuff for WordPress 3.3 and lastly changed the name to Genesis Toolbar to reflect the new wording used in WordPress 3.3.
 
 = 0.2 =
 
-* Completely refactored this plugin thanks to the input of [Gary Jones](http://garyjones.co.uk "Gary Jones"). 
-The plugin now allows now for child themes and plugins to add their own menu items to the one already provided for in this plugin. 
+* Completely refactored this plugin thanks to the input of [Gary Jones](http://garyjones.co.uk "Gary Jones").
+The plugin now allows now for child themes and plugins to add their own menu items to the one already provided for in this plugin.
 The internal Genesis pages are added to the menu now as well.
 
 = 0.1 =
@@ -51,7 +51,7 @@ The internal Genesis pages are added to the menu now as well.
 
 == Upgrade Notice ==
 
-= 1.0 = 
+= 1.0 =
 
 Updated the plugin with a bunch of resources and made it ready for WordPress 3.3
 
